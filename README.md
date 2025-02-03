@@ -4,9 +4,13 @@ This project is a simple image encryption tool that utilizes pixel manipulation 
 
 ## Features
 Encrypt images using pixel manipulation techniques.
+
 Decrypt images back to their original form.
+
 Support for basic operations like pixel value swapping and mathematical transformations.
+
 User-friendly command-line interface.
+
 
 ## Requirements
 To run this project, you will need:
@@ -42,50 +46,11 @@ Verify
 Run
 Copy code
 pip install -r requirements.txt
-Usage
-Encrypting an Image
-To encrypt an image, run the following command:
 
-bash
+## Example
 
-Verify
-Run
-Copy code
-python encrypt.py <input_image_path> <output_image_path>
-<input_image_path>: Path to the image you want to encrypt.
-<output_image_path>: Path where the encrypted image will be saved.
-Decrypting an Image
-To decrypt an image, run the following command:
 
-bash
 
-Verify
-Run
-Copy code
-python decrypt.py <input_image_path> <output_image_path>
-<input_image_path>: Path to the encrypted image.
-<output_image_path>: Path where the decrypted image will be saved.
-Example
-bash
-
-Verify
-Run
-Copy code
-python encrypt.py input.jpg encrypted.png
-python decrypt.py encrypted.png decrypted.jpg
-Implementation Details
-Encryption Process
-Load the Image: Use the Pillow library to load the image.
-Pixel Manipulation:
-Swap pixel values: Randomly select pairs of pixels and swap their values.
-Apply mathematical operations: For example, add a constant value to each pixel's RGB values.
-Save the Encrypted Image: Save the manipulated pixel data back to an image file.
-Decryption Process
-Load the Encrypted Image: Use the Pillow library to load the encrypted image.
-Reverse Pixel Manipulation:
-Reverse the swapping of pixel values.
-Apply the inverse of the mathematical operations used during encryption.
-Save the Decrypted Image: Save the restored pixel data back to an image file.
 
 For any questions or feedback, please reach out to [vaishnavii540@gmail.com].
 
