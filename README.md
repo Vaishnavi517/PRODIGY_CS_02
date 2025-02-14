@@ -35,8 +35,8 @@ bash
 
 Verify
 Run
-Copy code
-git clone https://github.com/yourusername/image-encryption-tool.git
+
+git clone https://github.com/Vaishnavi517/image-encryption-tool.git
 cd image-encryption-tool
 Install the required libraries (if not already installed):
 
